@@ -1,0 +1,59 @@
+/**
+ * @name CleanSC
+ * @author scrimson#9801
+ * @description A theme clean to make things more soft
+ * @version 1.0
+ */
+
+.scrollableContainer-15eg7h {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: rgb(20, 20, 31);
+    max-height: 50vh;
+    border-radius: 8px;
+    scrollbar-width: none;
+}
+
+.barButtonMain-2GIx4o, .span-3lFnWr {
+    background-color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.barButtonAlt-TQoCdZ {
+    background-color: black;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-weight: 600;
+    position: relative;
+}
+
+.container-2cd8Mz {
+  background-color: rgb(10, 10, 15) !important;
+}
+
+.theme-dark {
+    --background-primary: rgb(10, 10, 15) !important;
+    --background-secondary: rgb(10, 10, 15) !important;
+    --background-secondary-alt: rgb(10, 10, 15) !important;
+    --background-tertiary: rgb(10, 10, 15) !important;
+}
+
+.root-22AK9z {
+    background-color: rgb(10, 10, 15);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+}
