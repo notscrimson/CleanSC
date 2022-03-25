@@ -2,13 +2,13 @@
  * @name CleanSC
  * @author scrimson#9801
  * @description A theme clean to make things more soft
- * @version 1.0
+ * @version 1.1
  */
 
 .scrollableContainer-15eg7h {
     overflow-x: hidden;
     overflow-y: scroll;
-    background-color: rgb(20, 20, 31);
+    background-color: rgba(10, 10, 10);
     max-height: 50vh;
     border-radius: 8px;
     scrollbar-width: none;
@@ -35,14 +35,14 @@
 }
 
 .theme-dark {
-    --background-primary: rgb(10, 10, 15) !important;
-    --background-secondary: rgb(10, 10, 15) !important;
-    --background-secondary-alt: rgb(10, 10, 15) !important;
-    --background-tertiary: rgb(10, 10, 15) !important;
+    --background-primary: rgb(10, 10, 10) !important;
+    --background-secondary: rgb(10, 10, 10) !important;
+    --background-secondary-alt: rgb(10, 10, 10) !important;
+    --background-tertiary: rgb(10, 10, 10) !important;
 }
 
 .root-22AK9z {
-    background-color: rgb(10, 10, 15);
+    background-color: rgb(10, 10, 10);
     height: 100%;
     width: 100%;
     position: relative;
@@ -56,4 +56,12 @@
     -ms-flex-pack: center;
     justify-content: center;
     color: #fff;
+}
+
+
+.note-Go5ZP2, .bodyTitle-2Az3VQ, .textarea-_59yqs,
+.footer-3naVBw, .headerTop-3GPUSF, .body-2wLx-E, .bodyInnerWrapper-2bQs1k, 
+.infoScroller-1QMpon, .topSection-13QKHs, .listScroller-entkMk
+  {
+    background-color: rgb(10, 10, 10);
 }
