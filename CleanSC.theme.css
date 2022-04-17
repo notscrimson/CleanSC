@@ -1,16 +1,16 @@
 /**
  * @name CleanSC
  * @author scrimson#9801
- * @description A theme clean to make things more soft
- * @version 1.1
+ * @description A theme clean to make things more soft, editable,
+ * @version 2.0
  */
 
 .scrollableContainer-15eg7h {
     overflow-x: hidden;
     overflow-y: scroll;
-    background-color: rgba(10, 10, 10);
+    background-color: rgba(13, 13, 13);
     max-height: 50vh;
-    border-radius: 8px;
+    border-radius: 32px;
     scrollbar-width: none;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .container-2cd8Mz {
-  background-color: rgb(10, 10, 15) !important;
+  background-color: rgb(10, 10, 10) !important;
 }
 
 .theme-dark {
@@ -64,4 +64,83 @@
 .infoScroller-1QMpon, .topSection-13QKHs, .listScroller-entkMk
   {
     background-color: rgb(10, 10, 10);
+}
+
+.item-1OdjEX {
+    background-color: rgb(13, 13, 13);
+}
+
+.scroller-1bVxF5 {
+    background-color: rgb(13, 13, 13);
+}
+
+.link-39sEB3 {
+    background-color: rgb(13, 13, 13);
+    border-radius: 64px;
+}
+
+.panels-3wFtMD {
+    background-color: rgb(13, 13, 13);
+    border-radius: 32px;
+}
+
+.interactive-1vLZ_I {
+    background-color: rgb(10, 10, 10);
+}
+
+.interactiveSelected-29CP8y {
+    background-color: rgb(10, 10, 10);
+}
+
+.interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover {
+    color: var(--interactive-hover);
+    background-color: var(--background-modifier-hover) black;
+}
+
+.themed-2-lozF {
+    background-color: rgb(13, 13, 13);
+}
+
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+    background-color: rgb(13, 13, 13);
+}
+
+.mainContent-20q_Hp:hover {
+    background-color: rgb(44, 82, 47);
+}
+.mainContent-20q_Hp {
+    background-color: rgb(13, 13, 13);
+    border-radius: 64px;
+    padding: 4px;
+}
+
+.mainContent-20q_Hp:hover::before {
+    background-color: darkgreen;
+    border-radius: 64px;
+}
+
+.content-1gYQeQ {
+    background-color: rgb(13, 13, 13)!important;
+    border-radius: 64px;
+}
+
+.iconVisibility-vptxma {
+    background-color: rgb(10, 10, 10);
+}
+
+.modeSelected-3DmyhH {
+    background-color: darkgreen;
+    border-radius: 64px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.header-3OsQeK {
+    background-color: rgb(13, 13, 13);
+    border-radius: 64px;
+}
+
+.container-1-ERn5 {
+    background-color: rgb(13, 13, 13) !important;
+    border-radius: 64px;
 }
